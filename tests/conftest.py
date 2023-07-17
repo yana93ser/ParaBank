@@ -3,6 +3,7 @@ import os
 import pytest
 from dotenv import load_dotenv
 from selene import Browser, Config
+from selene.support.shared import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -21,6 +22,7 @@ def pytest_addoption(parser):
 @pytest.fixture(scope='session', autouse=True)
 def load_env():
     load_dotenv()
+
 
 @pytest.fixture(scope='function')
 def setup_browser(request):
@@ -44,7 +46,8 @@ def setup_browser(request):
         command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",
         options=options
     )
-    browser = Browser(Config(driver))
+    browser.config.driver = driver
+
     yield browser
 
     attach.add_html(browser)
