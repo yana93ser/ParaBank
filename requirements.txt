@@ -3,4 +3,5 @@ allure-pytest == 2.13.2
 pytest>=7.4.0
 python-dotenv~=1.0.0
 selenium == 4.2.0
+packaging
 
