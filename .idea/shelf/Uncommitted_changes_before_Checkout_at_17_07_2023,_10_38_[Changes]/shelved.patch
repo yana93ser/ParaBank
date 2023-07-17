@@ -1,0 +1,18 @@
+Index: tests/test_notlog.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import allure\n\nfrom pages.not_login import NotLogin\nfrom pages.users import test_user\n\n\n\n# @allure.step('Покупка виниловой пластинки без регистрации на сайте')\ndef test_not_login(setup_browser):\n    browser = setup_browser\n    not_login = NotLogin()\n\n    with allure.step(\"Открыть страницу магазина\"):\n        not_login.open()\n        browser.element(\"#edit-search-api-views-fulltext\").type('sinatra').press_enter()\n        browser.element('#commerce-cart-add-to-cart-form-86089').click()\n        browser.element(\"#block-commerce-popup-cart-commerce-popup-cart\").click()\n        browser.element('#edit-checkout').click()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tests/test_notlog.py b/tests/test_notlog.py
+--- a/tests/test_notlog.py	
++++ b/tests/test_notlog.py	
+@@ -12,6 +12,7 @@
+ 
+     with allure.step("Открыть страницу магазина"):
+         not_login.open()
++        
+         browser.element("#edit-search-api-views-fulltext").type('sinatra').press_enter()
+         browser.element('#commerce-cart-add-to-cart-form-86089').click()
+         browser.element("#block-commerce-popup-cart-commerce-popup-cart").click()
