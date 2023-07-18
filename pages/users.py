@@ -45,3 +45,15 @@ test_new_user = NewUsers(
     password='1234',
     confirm='1234'
 )
+
+
+@dataclass
+class LoginUsers:
+    user_name: str
+    password: str
+
+
+test_login_user = LoginUsers(
+    user_name='test_user_ya',
+    password='1234'
+)

@@ -1,17 +1,13 @@
 from selene import be
 from selene.support.shared import browser
 
-from pages.users import Users, NewUsers
+from pages.users import Users, NewUsers, LoginUsers
 
 
 class SendForm:
 
-    def open_page(self):
-        browser.open('https://parabank.parasoft.com/parabank/index.htm')
-        return self
-
     def send_email(self):
-        browser.element("#headerPanel > ul.button > li.contact > a").press_enter()
+        browser.element('[href="contact.htm"]').press_enter()
         return self
 
     def type_email_forms(self, user: Users):
@@ -23,13 +19,12 @@ class SendForm:
 
     def send_forms(self):
         browser.element('[value="Send to Customer Care"]').press_enter()
+        browser.element('#rightPanel').should(be.visible)
         return self
+
 
 
 class RegisterForm:
-    def open_page(self):
-        browser.open('https://parabank.parasoft.com/parabank/index.htm')
-        return self
 
     def register(self):
         browser.element('[href="register.htm"]').press_enter()
@@ -52,6 +47,18 @@ class RegisterForm:
     def send_form(self):
         browser.element('[value="Register"]').press_enter()
         return self
+
     def account_was_created(self):
         browser.element('#rightPanel').should(be.visible)
+        return self
+
+
+class LoginForm:
+
+    def type_login_form(self, login_user: LoginUsers):
+        browser.element('[name="username"]').type(login_user.user_name)
+        browser.element('[name="password"]').type(login_user.password)
+        return self
+    def send_login(self):
+        browser.element('[value="Log In"]').press_enter()
         return self

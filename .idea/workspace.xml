@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edff6186-4a52-412e-8dd1-6b75766a89a2" name="Changes" comment="добавелены новые тесты" />
+    <list default="true" id="edff6186-4a52-412e-8dd1-6b75766a89a2" name="Changes" comment="добавелены новые тесты">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/04b412eb-b06d-4441-bc40-df2b940f1ffc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/930c38e1-3171-406a-8ffd-3b7252d05676-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/send_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/send_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_send_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_send_forms.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_send_forms.test_regisret_form">
+  <component name="RunManager" selected="Python tests.Python tests for test_send_forms.test_login">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="diplom" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +119,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_send_forms.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Parabank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_send_forms.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_send_forms.test_regisret_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Parabank" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,20 +158,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_send_forms.test_send_form&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_notlog.test_not_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="diplom" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--alluredir\u003dallure-results&quot;" />
-      <option name="_new_target" value="&quot;tests.test_notlog.test_not_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -197,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_send_forms.test_regisret_form" />
+        <item itemvalue="Python tests.Python tests for test_send_forms.test_login" />
         <item itemvalue="Python tests.Python tests for test_send_forms.test_send_form" />
+        <item itemvalue="Python tests.Python tests for test_send_forms.test_regisret_form" />
         <item itemvalue="Python tests.Python tests for tests.test_send_forms.test_send_form" />
         <item itemvalue="Python tests.Python tests for test_notlog.test_not_login" />
-        <item itemvalue="Python tests.Python tests for tests.test_notlog.test_not_login" />
       </list>
     </recent_temporary>
   </component>
@@ -213,20 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688909770647</updated>
-    </task>
-    <task id="LOCAL-00012" summary="корректировки">
-      <created>1688992954401</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1688992954401</updated>
-    </task>
-    <task id="LOCAL-00013" summary="корректировки">
-      <created>1688998752091</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1688998752091</updated>
     </task>
     <task id="LOCAL-00014" summary="корректировки">
       <created>1688999193885</created>
@@ -557,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689679847756</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="добавелены новые тесты">
+      <created>1689679965738</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1689679965738</updated>
+    </task>
+    <task id="LOCAL-00062" summary="добавелены новые тесты">
+      <created>1689680052004</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1689680052004</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
