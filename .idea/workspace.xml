@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edff6186-4a52-412e-8dd1-6b75766a89a2" name="Changes" comment="исправления">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/send_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/send_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_send_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_send_forms.py" afterDir="false" />
-    </list>
+    <list default="true" id="edff6186-4a52-412e-8dd1-6b75766a89a2" name="Changes" comment="добавелены новые тесты" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,13 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688909770647</updated>
-    </task>
-    <task id="LOCAL-00011" summary="корректировки">
-      <created>1688992523475</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1688992523475</updated>
     </task>
     <task id="LOCAL-00012" summary="корректировки">
       <created>1688992954401</created>
@@ -562,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689603152279</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="добавелены новые тесты">
+      <created>1689679847755</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1689679847756</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +588,8 @@
     <MESSAGE value="корректировки" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <MESSAGE value="исправления" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправления" />
+    <MESSAGE value="добавелены новые тесты" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавелены новые тесты" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

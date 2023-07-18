@@ -19,6 +19,8 @@ def test_send_form():
         send_form.send_forms()
 
 
+@allure.tag("UI test")
+@allure.title('Проверка формы регистрации нового пользователя.')
 def test_regisret_form():
     register_form = RegisterForm()
     with allure.step("Открыть страницу банка."):
